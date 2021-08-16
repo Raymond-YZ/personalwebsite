@@ -1,12 +1,13 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(bg.JPG) no-repeat;
+    background: url(bg.JPG) center no-repeat;
     background-size:cover;
+    min-width: 500px;
 }
 
 .box{
-    width:500px;
+    width:450px;
     background: rgba(0,0,0, 0.6);
     padding: 50px;
     text-align:center;
@@ -36,6 +37,16 @@ body{
 
 .box p {
     text-align: justify;
+    padding: 10px;
+}
+
+.box #languages{
+    margin: 0;
+    text-align:center;
+}
+
+.box #languages-list{
+    align-content:auto;
 }
 
 .box li{
@@ -44,13 +55,22 @@ body{
     list-style: none;
 }
 
-.box li a{
+
+
+.box #socials{
+    display:inline-block;
+    margin: 0;
+    list-style: none;
+}
+
+.box #socials a{
     color: white;
     text-decoration: none;
+    margin-right: 30px;
     font-size: 50px;
     transition: all ease-in-out 250ms;
 }
 
-.box li a hover{
-    color: #c52323;
+.box #socials a:hover{
+    color: #00f7ff;
 }

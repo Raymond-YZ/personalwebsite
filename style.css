@@ -14,6 +14,7 @@ nav{
     min-height:8vh;
     background-color: #046085;
     font-family: 'Coming Soon', cursive;
+    opacity: 0.9;
 }
 
 
@@ -39,7 +40,7 @@ nav{
 }
 
 #navbar a{
-    color:rgb(226,226,226);
+    color:white;
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 14px;
@@ -72,7 +73,7 @@ nav{
        position: absolute;
        right:0px;
        height:80vh;
-       top:13vh;
+       top:8vh;
        background-color: #046085;
        display: flex;
        flex-direction: column;
@@ -80,6 +81,7 @@ nav{
        width: 50%;
        transform: translateX(100%);
        transition: transform 0.5s ease-in;
+       opacity:0.9;
    }
    #navbar li{
        opacity: 0;

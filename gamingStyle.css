@@ -6,6 +6,119 @@ body{
     min-width: 600px;
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height:8vh;
+    background-color: #046085;
+    font-family: 'Coming Soon', cursive;
+    opacity: 0.9;
+}
+
+
+.logo{
+    color: rgb(226,226,226);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    vertical-align: center;
+}
+
+#navbar{
+    display:flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar a{
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226,226,226);
+    margin: 5px;
+    transition: all 0.5 ease;
+}
+
+@media screen and (max-width:1024px){
+   #navbar{
+       width: 60%
+   }
+}
+
+@media screen and (max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
+   #navbar{
+       position: absolute;
+       right:0px;
+       height:80vh;
+       top:8vh;
+       background-color: #046085;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 50%;
+       transform: translateX(100%);
+       transition: transform 0.5s ease-in;
+       opacity: 1;
+   }
+   #navbar li{
+       opacity: 0;
+   }
+
+   .burger{
+       display: block;
+       margin-right: 10%;
+   }
+
+}
+
+#navbar.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opactiy: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+   transform: rotate(-45deg) translate(-5px, 6px); 
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px); 
+}
+
+
 .box{
     width:600px;
     background: rgba(0,0,0, 0.6);
@@ -28,11 +141,6 @@ body{
 .box h1{
    font-size:40px;
    font-weight: 100; 
-}
-
-.box h2{
-    font-size: 20px;
-    text-align: justify;
 }
 
 .box h5{

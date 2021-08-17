@@ -16,7 +16,7 @@ body{
     margin-bottom: 2.5%;
     color: white;
     font-family: 'Century Gothic', sans-serif;
-    transition: all ease-in-out 500ms;
+    transition: all ease-in-out 250ms;
 }
 
 .box-img{

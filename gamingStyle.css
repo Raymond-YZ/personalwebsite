@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(lanpic1.JPG) center no-repeat;
+    background-size:cover;
+    min-width: 600px;
+}
+
+.box{
+    width:600px;
+    background: rgba(0,0,0, 0.6);
+    padding: 50px;
+    text-align:center;
+    margin: auto;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    transition: all ease-in-out 500ms;
+}
+
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box h1{
+   font-size:40px;
+   font-weight: 100; 
+}
+
+.box h2{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.box h5{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.box #bio {
+    text-align: justify;
+    padding:auto;
+    line-height: 30px;
+}
+
+.box #games{
+    padding: 0;
+    margin:0;
+    text-align: justify;
+}
+
+.box #games ul{
+    margin: 0;
+    padding: 0;
+    font-family: 'gotham', sans-serif;
+}
+
+.box #games-list{
+    line-height: 1.6;
+}
+
+.box li{
+    display:inline-block;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.box #aliases{
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    
+}
+.box #aliases ul{
+    margin: 0;
+    padding: 0;
+    font-family: 'gotham', sans-serif;
+}
+.box #aliases p{
+    text-align: justify;
+    padding:0;
+    font-family: 'gotham', sans-serif;
+}
+
+
+.box #socials{
+    display:inline-block;
+    margin: 0;
+    list-style: none;
+}
+
+.box #socials a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 50px;
+    transition: all ease-in-out 250ms;
+}
+
+.box #socials a:hover{
+    color: #00f7ff;
+}

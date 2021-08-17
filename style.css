@@ -3,11 +3,11 @@ body{
     padding: 0;
     background: url(bg.JPG) center no-repeat;
     background-size:cover;
-    min-width: 500px;
+    min-width: 600px;
 }
 
 .box{
-    width:450px;
+    width:500px;
     background: rgba(0,0,0, 0.6);
     padding: 50px;
     text-align:center;
@@ -16,6 +16,7 @@ body{
     margin-bottom: 2.5%;
     color: white;
     font-family: 'Century Gothic', sans-serif;
+    transition: all ease-in-out 500ms;
 }
 
 .box-img{
@@ -42,16 +43,19 @@ body{
 
 .box #languages{
     margin: 0;
+    padding: 0;
     text-align:center;
 }
 
-.box #languages-list{
-    align-content:auto;
+.box #languages ul{
+    margin: 0;
+    padding: 0;
 }
+
 
 .box li{
     display:inline-block;
-    margin: 3px;
+    margin-right: 20px;
     list-style: none;
 }
 

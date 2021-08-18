@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url(bg4.JPG) center no-repeat;
+    background: url(bg4.jpg) center no-repeat;
     background-size:cover;
     min-width: 600px;
 }

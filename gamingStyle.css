@@ -128,7 +128,7 @@ nav{
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     color: white;
-    font-family: 'Century Gothic', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     transition: all ease-in-out 250ms;
 }
 
@@ -169,7 +169,7 @@ nav{
 .box #games ul{
     margin: 0;
     padding: 0;
-  
+    column-width: 10%;
 }
 
 .box #games-list{
@@ -177,7 +177,7 @@ nav{
 }
 
 .box li{
-    display:inline-block;
+    display: block;
     margin-right: 20px;
     list-style: none;
 }
@@ -200,8 +200,8 @@ nav{
 }
 
 
-.box #socials{
-    display:inline-block;
+.box #socials li{
+    display: inline-block;
     margin: 0;
     list-style: none;
 }

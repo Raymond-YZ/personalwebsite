@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(bg2.JPG) center no-repeat;
+    background: url(../images/bg2.JPG) center no-repeat;
     background-size:cover;
     min-width: 600px;
 }
@@ -174,6 +174,13 @@ nav{
 
 .box .projects h4{
     margin: 0;
+}
+
+.box .projects .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .box #games ul{

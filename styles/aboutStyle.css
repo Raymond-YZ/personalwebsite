@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url(bg.JPG) center no-repeat;
+    background: url(../images/bg4.jpg) center no-repeat;
     background-size:cover;
     min-width: 600px;
 }
@@ -121,7 +121,7 @@ nav{
 
 
 .box{
-    width:500px;
+    width:600px;
     background: rgba(0,0,0, 0.6);
     padding: 50px;
     text-align:center;
@@ -141,7 +141,8 @@ nav{
 
 .box h1{
    font-size:40px;
-   font-weight: 100; 
+   font-weight: 100;
+   margin: 15px; 
 }
 
 .box h5{

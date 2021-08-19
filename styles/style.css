@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(lanpic1.JPG) center no-repeat;
+    box-sizing: border-box;
+    background: url(../images/bg.JPG) center no-repeat;
     background-size:cover;
     min-width: 600px;
 }
@@ -80,7 +81,7 @@ nav{
        width: 50%;
        transform: translateX(100%);
        transition: transform 0.5s ease-in;
-       opacity: 1;
+       opacity:0.9;
    }
    #navbar li{
        opacity: 0;
@@ -120,7 +121,7 @@ nav{
 
 
 .box{
-    width:600px;
+    width:500px;
     background: rgba(0,0,0, 0.6);
     padding: 50px;
     text-align:center;
@@ -138,11 +139,6 @@ nav{
     height: 200px;
 }
 
-.box a{
-    color:white;
-    font-style: italic;
-}
-
 .box h1{
    font-size:40px;
    font-weight: 100; 
@@ -154,54 +150,33 @@ nav{
     font-weight: 100;
 }
 
-.box #bio {
+.box p {
     text-align: justify;
-    padding:auto;
-    
+    padding: 10px;
 }
 
-.box #games{
-    padding: 0;
-    margin:0;
-    text-align: justify;
-}
-
-.box #games ul{
+.box #languages{
     margin: 0;
     padding: 0;
-    column-width: 10%;
+    text-align:center;
 }
 
-.box #games-list{
-    line-height: 1.6;
+.box #languages ul{
+    margin: 0;
+    padding: 0;
 }
+
 
 .box li{
-    display: block;
+    display:inline-block;
     margin-right: 20px;
     list-style: none;
 }
 
-.box #accomplishments{
-    padding: 0;
-    margin: 0;
-    text-align: justify;
-    
-}
-.box #accomplishments ul{
-    margin: 0;
-    padding: 0;
-    
-}
-.box #accomplishments p{
-    text-align: justify;
-    padding:0;
-    
-}
 
 
-.box #socials li{
-    display: inline-block;
+.box #socials{
+    display:inline-block;
     margin: 0;
     list-style: none;
 }

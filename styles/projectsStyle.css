@@ -183,6 +183,10 @@ nav{
     width: 50%;
 }
 
+.box .projects .steps{
+    text-align: center;
+}
+
 .box #games ul{
     margin: 0;
     padding: 0;

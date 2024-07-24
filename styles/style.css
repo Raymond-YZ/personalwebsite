@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url(../images/bg.JPG) center no-repeat;
+    background: url(../images/asakusa.JPG) center no-repeat;
     background-size:cover;
     min-width: 600px;
 }
@@ -122,7 +122,7 @@ nav{
 
 .box{
     width:500px;
-    background: rgba(0,0,0, 0.6);
+    background: rgba(0,0,0, 0.8);
     padding: 50px;
     text-align:center;
     margin: auto;
